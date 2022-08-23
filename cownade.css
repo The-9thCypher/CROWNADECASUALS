@@ -1,0 +1,280 @@
+/* START OF TOP PART OF THE WEBPAGE  */
+.nav {
+  float: right;
+  margin-top: 38px;
+  margin-right: 50px;
+  font-family: cursive;
+  font-size: large;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(180, 93, 180);
+}
+
+.nav a:hover {
+  color: darksalmon;
+  transition-duration: 800ms;
+}
+
+.image {
+  float: left;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.name-header {
+  float: left;
+  color: rgb(180, 93, 180);
+  font-family: cursive;
+}
+/* END OF TOP PART OF THE WEB PAGE */
+
+/* START OF THE MAIN PART OF THE WEBPAGE */
+body {
+  background-color: wheat;
+}
+
+.welcome-people {
+  vertical-align: middle;
+}
+
+.welcome-note {
+  font-family: cursive;
+  color: darksalmon;
+  font-size: 50px;
+}
+
+.about-welcome {
+  font-family: cursive;
+  font-size: 30px;
+  vertical-align: 10px;
+}
+
+.quote {
+  justify-content: center;
+  font-family: cursive;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #000;
+}
+
+.order-btn {
+  background-color: darksalmon;
+  color: #fff;
+  font-size: 20px;
+  font-family: cursive;
+  height: 50px;
+  width: 200px;
+  border-color: wheat;
+  border-radius: 30px;
+  animation-name: myAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes myAnimation {
+  from{
+    background-color: coral;
+  }
+  to{
+    background-color: lightsteelblue; 
+    color: #000;
+  }
+}
+
+.secondtwoimages {
+  margin-left: 20px;
+}
+
+.image-one {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.centerimage {
+  height: 620px;
+  width: 600px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.why-choose {
+  color: #000;
+  font-family: cursive;
+  font-size: 30px;
+  vertical-align: 10px;
+}
+
+.container{
+  display: flex;
+  background-color: wheat;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.assured-speed {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px -5px;
+  color: #000;
+  font-family: cursive;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.assured-speed h3 {
+  padding-left: 80px;
+}
+
+.assured-speed p {
+  font-size: small;
+}
+
+.creative-designs {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px -5px;
+  color: #000;
+  font-family: cursive;
+  width: 300px;
+  margin-left: 150px;
+}
+
+.creative-designs h3 {
+  padding-left: 70px;
+}
+
+.creative-designs p {
+  font-size: small;
+}
+
+.customer-satisfaction {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px -5px;
+  color: #000;
+  font-family: cursive;
+  width: 300px;
+  margin-left: 140px;
+}
+
+.customer-satisfaction h3 {
+  padding-left: 45px;
+}
+
+.customer-satisfaction p {
+  font-size: small;
+}
+
+/* .center-page-image{
+  width: 100%;
+  height: 900px;
+
+} */
+
+.testimonial {
+  color: #000;
+  font-family: cursive;
+  font-size: 30px;
+  vertical-align: 10px;
+}
+
+.shyllon{
+  background-color:lightblue;
+  border-radius: 20px;
+  box-shadow:  10px 10px 20px -5px;
+  color: #000;
+  font-family: cursive;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.shyllon-image{
+  margin-left: 110px;
+  border-radius: 50px;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.shyllon h3{
+  padding-left: 110px;
+}
+
+.shyllon p{
+  font-size: small;
+}
+
+.Festus{
+  background-color:lavender;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px -5px;
+  color: #000;
+  font-family: cursive;
+  width: 300px;
+  margin-left: 150px;
+}
+
+.festus-image{
+  height: 80px;
+  padding-top: 20px;
+  margin-left: 120px;
+  border-radius: 50px;
+}
+
+.Festus h3{
+  padding-left: 120px;
+}
+
+.Festus p{
+  font-size: small;
+}
+
+.maryam{
+  background-color: lightsteelblue;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px -5px;
+  color: #000;
+  font-family: cursive;
+  width: 300px;
+  margin-left: 140px;
+}
+
+.maryam-image{
+  height: 80px;
+  margin-left: 120px;
+  padding-top: 20px;
+  border-radius: 50px;
+}
+
+.maryam h3{
+  padding-left: 110px;
+}
+
+.maryam p{
+  font-size: small;
+}
+
+/* END OF THE MAIN PART OF THE WEB PAGE */
+
+/* START OF BOTTOM PART OF THE WEBPAGE */
+.footer {
+  color: #fff;
+  position: relative;
+  background-color: rgb(53, 53, 53);
+}
+
+.div-footer {
+  border-radius: 20px;
+  width: 300px;
+  height: 230px;
+  padding-top: 7px;
+  justify-content: center;
+  margin-left: 480px;
+  background-color: rgb(180, 93, 180);
+}
+
+
+
