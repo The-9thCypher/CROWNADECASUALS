@@ -199,7 +199,7 @@
   text-align: center;
   color: #fff;
   animation-name: slidingAnimation;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 
 
@@ -211,7 +211,7 @@
 
 @keyframes slidingAnimation{
   from {
-    bottom: -500px;
+    bottom: -200px;
   }
   to{
     bottom: 0px;
