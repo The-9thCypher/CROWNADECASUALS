@@ -9,11 +9,11 @@
 
 .nav a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(180, 93, 180);
 }
 
 .nav a:hover {
-  color:  rgb(180, 93, 180);
+  color:  #fff;
   transition-duration: 800ms;
 }
 
