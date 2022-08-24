@@ -37,12 +37,25 @@
 }
 
 .welcome-note {
+  position: relative;
   font-family: cursive;
   color: darksalmon;
   font-size: 50px;
+  animation-name: welcomenote;
+  animation-duration: 3s;
+}
+
+@keyframes welcomenote{
+  from{
+    top: -50px;
+  }
+  to{
+    top: 0px;
+  }
 }
 
 .about-welcome {
+  position: relative;
   color: #fff;
   font-family: cursive;
   font-size: 30px;
@@ -100,10 +113,13 @@
 }
 
 .why-choose {
+  position: relative;
   color: #fff;
   font-family: cursive;
   font-size: 30px;
   vertical-align: 10px;
+  animation-name: welcomenote;
+  animation-duration: 3s;
 }
 
 .container{
@@ -120,6 +136,9 @@
   font-family: cursive;
   margin-left: 30px;
   width: 300px;
+  position: relative;
+  animation-name: divslide;
+  animation-duration: 3s;
 }
 
 .assured-speed h3 {
@@ -138,6 +157,9 @@
   font-family: cursive;
   width: 300px;
   margin-left: 150px;
+  position: relative;
+  animation-name: divslide;
+  animation-duration: 3s;
 }
 
 .creative-designs h3 {
@@ -156,6 +178,10 @@
   font-family: cursive;
   width: 300px;
   margin-left: 140px;
+  position: relative;
+  animation-name: divslide;
+  animation-duration: 3s;
+  animation-fill-mode: both;
 }
 
 .customer-satisfaction h3 {
@@ -166,17 +192,41 @@
   font-size: small;
 }
 
-/* .center-page-image{
+/* sliding image div */
+.container-two{
   width: 100%;
-  height: 900px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  animation-name: slidingAnimation;
+  animation-duration: 2s;
+}
 
-} */
+
+.sliding-image{
+  width: 100%;
+  height: 500px;
+}
+
+
+@keyframes slidingAnimation{
+  from {
+    bottom: -500px;
+  }
+  to{
+    bottom: 0px;
+  }
+}
+/* end of sliding image div  */
 
 .testimonial {
+  position: relative;
   color: #fff;
   font-family: cursive;
   font-size: 30px;
   vertical-align: 10px;
+  animation-name: welcomenote;
+  animation-duration: 3s;
 }
 
 .shyllon{
@@ -187,6 +237,18 @@
   font-family: cursive;
   margin-left: 30px;
   width: 300px;
+  position: relative;
+  animation-name: divslide;
+  animation-duration: 3s;
+}
+
+@keyframes divslide{
+  from{
+    bottom: -50px;
+  }
+  to{
+    bottom: 0px;
+  }
 }
 
 .shyllon-image{
@@ -212,6 +274,9 @@
   font-family: cursive;
   width: 300px;
   margin-left: 150px;
+  position: relative;
+  animation-name: divslide;
+  animation-duration: 3s;
 }
 
 .festus-image{
@@ -237,6 +302,9 @@
   font-family: cursive;
   width: 300px;
   margin-left: 140px;
+  position: relative;
+  animation-name: divslide;
+  animation-duration: 3s;
 }
 
 .maryam-image{
@@ -253,6 +321,8 @@
 .maryam p{
   font-size: small;
 }
+
+
 
 /* END OF THE MAIN PART OF THE WEB PAGE */
 
