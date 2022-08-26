@@ -245,9 +245,11 @@
 @keyframes divslide{
   from{
     bottom: -50px;
+    animation-delay: 0s;
   }
   to{
     bottom: 0px;
+    animation-delay: 2s;
   }
 }
 
