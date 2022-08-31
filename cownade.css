@@ -48,6 +48,7 @@ body{
   font-size: 50px;
   animation-name: welcomenote;
   animation-duration: 3s;
+  animation-timing-function: linear;
 }
 
 @keyframes welcomenote{
@@ -125,6 +126,7 @@ body{
   vertical-align: 10px;
   animation-name: welcomenote;
   animation-duration: 3s;
+  animation-timing-function: linear;
 }
 
 .container{
@@ -144,6 +146,7 @@ body{
   position: relative;
   animation-name: divslide;
   animation-duration: 3s;
+  animation-timing-function: linear;
 }
 
 .assured-speed h3 {
@@ -165,6 +168,7 @@ body{
   position: relative;
   animation-name: divslide;
   animation-duration: 3s;
+  animation-timing-function: linear;
 }
 
 .creative-designs h3 {
@@ -185,6 +189,7 @@ body{
   margin-left: 140px;
   position: relative;
   animation-name: divslide;
+  animation-timing-function: linear;
   animation-duration: 3s;
   animation-fill-mode: both;
 }
@@ -204,6 +209,7 @@ body{
   text-align: center;
   color: #fff;
   animation-name: slidingAnimation;
+  animation-timing-function: linear;
   animation-duration: 3s;
 }
 
@@ -231,6 +237,7 @@ body{
   font-size: 30px;
   vertical-align: 10px;
   animation-name: welcomenote;
+  animation-timing-function: linear;
   animation-duration: 3s;
 }
 
@@ -244,6 +251,7 @@ body{
   width: 300px;
   position: relative;
   animation-name: divslide;
+  animation-timing-function: linear;
   animation-duration: 3s;
 }
 
@@ -282,6 +290,7 @@ body{
   width: 300px;
   margin-left: 150px;
   position: relative;
+  animation-timing-function: linear;
   animation-name: divslide;
   animation-duration: 3s;
 }
@@ -309,6 +318,7 @@ body{
   font-family: cursive;
   width: 300px;
   margin-left: 140px;
+  animation-timing-function: linear;
   position: relative;
   animation-name: divslide;
   animation-duration: 3s;
