@@ -76,30 +76,6 @@ body{
   color: #fff;
 }
 
-.order-btn {
-  background-color: darksalmon;
-  color: #fff;
-  font-size: 20px;
-  font-family: cursive;
-  height: 50px;
-  width: 200px;
-  border-color: #fff;
-  border-radius: 30px;
-  animation-name: myAnimation;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes myAnimation {
-  from{
-    background-color: coral;
-  }
-  to{
-    background-color: lightsteelblue; 
-    color: #000;
-  }
-}
 
 .secondtwoimages {
   margin-left: 20px;
@@ -348,6 +324,62 @@ body{
   color: #fff;
   position: relative;
   background-color: rgb(53, 53, 53);
+}
+
+.email-input{
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: coral;
+  font-size: 20px;
+  font-family: cursive;
+  margin-bottom: 20px;
+  animation-name: email;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes email{
+  from{
+    color: coral;
+  }
+  to{
+    color: lightsteelblue;
+  }
+}
+
+::placeholder{
+  text-align: center;
+  color: #fff;
+  opacity: 1;
+ }
+
+.order-btn {
+  background-color: darksalmon;
+  color: #fff;
+  font-size: 20px;
+  font-family: cursive;
+  height: 50px;
+  width: 200px;
+  border-color: #fff;
+  border-radius: 30px;
+  animation-name: myAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes myAnimation {
+  from{
+    background-color: coral;
+  }
+  to{
+    background-color: lightsteelblue; 
+    color: #000;
+  }
 }
 
 .div-footer {
