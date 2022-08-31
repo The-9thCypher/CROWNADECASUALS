@@ -332,9 +332,16 @@ body{
   background-color: rgb(53, 53, 53);
 }
 
+.email-div{
+  background-color: lightblue;
+  margin-left: 450px;
+  margin-right: 450px;
+  border-radius: 20px;
+}
+
 .email-input{
   border: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #000;
   background: transparent;
   text-align: center;
   outline: none;
@@ -360,7 +367,7 @@ body{
 
 ::placeholder{
   text-align: center;
-  color: #fff;
+  color: #000;
   opacity: 1;
  }
 
@@ -368,6 +375,7 @@ body{
   background-color: darksalmon;
   color: #000;
   font-size: 20px;
+  margin-bottom: 20px;
   font-family: cursive;
   height: 50px;
   width: 200px;
