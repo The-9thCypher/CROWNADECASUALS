@@ -45,7 +45,7 @@ body{
   position: relative;
   font-family: cursive;
   color: darksalmon;
-  transition: all 2s;
+  transition: all 4s;
   -webkit-text-stroke: 4px #d6f4f4;
   font-variation-settings: "wght" 900, "ital" 1;
   font-size: 5rem;
