@@ -46,7 +46,7 @@ body{
   font-family: cursive;
   color: darksalmon;
   transition: all 4s;
-  -webkit-text-stroke: 4px #d6f4f4;
+  -webkit-text-stroke: 2px #d6f4f4;
   font-variation-settings: "wght" 900, "ital" 1;
   font-size: 5rem;
   text-align: center;
@@ -365,7 +365,7 @@ body{
 
 .order-btn {
   background-color: darksalmon;
-  color: #fff;
+  color: #000;
   font-size: 20px;
   font-family: cursive;
   height: 50px;
@@ -380,7 +380,7 @@ body{
 
 @keyframes myAnimation {
   from{
-    background-color: coral;
+    background-color: lightblue;
   }
   to{
     background-color: lightsteelblue; 
@@ -395,7 +395,6 @@ body{
   padding-top: 7px;
   justify-content: center;
   margin-left: 480px;
-  background-color: rgb(180, 93, 180);
 }
 
 
