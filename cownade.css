@@ -346,22 +346,22 @@ body{
   text-align: center;
   outline: none;
   height: 40px;
-  color: coral;
+  color: #000;
   font-size: 20px;
   font-family: cursive;
   margin-bottom: 20px;
   animation-name: email;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 
 @keyframes email{
   from{
-    color: coral;
+    color: #000;
   }
   to{
-    color: lightsteelblue;
+    color: #fff;
   }
 }
 
