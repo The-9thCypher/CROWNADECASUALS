@@ -45,10 +45,25 @@ body{
   position: relative;
   font-family: cursive;
   color: darksalmon;
-  font-size: 50px;
-  animation-name: welcomenote;
-  animation-duration: 3s;
-  animation-timing-function: linear;
+  transition: all 2s;
+  -webkit-text-stroke: 4px #d6f4f4;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 5rem;
+  text-align: center;
+  color: coral;
+  font-family: "Meta", sans-serif;
+  text-shadow: 10px 0px #07bccc, 
+  15px 15px 0px #e601c0
+  20px 20px 0px #e9019a
+  25px 25px 0px #f40468
+  45px 45px 10px #482896;
+  cursor: pointer;
+}
+
+.welcome-note:hover {
+  -webkit-text-stroke: 3px #d6f4f4;
+  font-variation-settings: "wght", 100, "ital", 0;
+  text-shadow: none;
 }
 
 @keyframes welcomenote{
