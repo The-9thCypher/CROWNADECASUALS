@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="cownade.css" />
-    <script src="crownade.js"></script>
     <link
       rel="shortcut icon"
       href="IMG-20220812-WA0139_1.jpg"
@@ -20,7 +19,7 @@
   <!-- start of header section from the name to the logo to the nav bar -->
   <header class="header">
     <div class="image">
-      <img src="IMG-20220812-WA0139_1.jpg" style="height: 50px; width: 60px" />
+      <img src="IMG-20220812-WA0139_1.jpg" style="height: 50px; width: 60px" type="image/jpeg" />
     </div>
     <div class="name-header">
       <h1>&nbsp;CROWNADE CASUALS.</h1>
@@ -38,7 +37,7 @@
     <br />
   </header>
 
-  <body background="photo-1560796952-f1c9b838544c.jfif">
+  <body background="photo-1560796952-f1c9b838544c.jfif" type="image/jfif">
     <div class="welcome-people">
       <center>
         <h1 class="welcome-note">Welcome to Crownade Casuals</h1>
@@ -69,19 +68,19 @@
 
     <div class="container">
       <div class="firsttwoimages">
-        <img src="IMG-20220812-WA0168.jpg" class="image-one" />
+        <img src="IMG-20220812-WA0168.jpg" class="image-one" type="image/jpeg"/>
         <br /><br />
-        <img src="IMG-20220812-WA0172.jpg" class="image-one" />
+        <img src="IMG-20220812-WA0172.jpg" class="image-one" type="image/jpeg" />
       </div>
 
       <div class="lastimagecenter">
-        <img src="IMG-20220812-WA0131.jpg" class="centerimage" />
+        <img src="IMG-20220812-WA0131.jpg" class="centerimage" type="image/jpeg" />
       </div>
 
       <div class="secondtwoimages">
-        <img src="IMG-20220812-WA0173.jpg" class="image-one" />
+        <img src="IMG-20220812-WA0173.jpg" class="image-one" type="image/jpeg" />
         <br /><br />
-        <img src="IMG-20220812-WA0174.jpg" class="image-one" />
+        <img src="IMG-20220812-WA0174.jpg" class="image-one" type="image/jpeg" />
       </div>
     </div>
     <br /><br />
@@ -140,7 +139,7 @@
     </div>
     <br />
     <div class="container-two">
-      <img src="istockphoto-1067772724-612x612.jpg" class="sliding-image">
+      <img src="istockphoto-1067772724-612x612.jpg" class="sliding-image" type="image/jpeg">
     </div>
     <br />
     <center>
@@ -158,7 +157,7 @@
     <br />
     <div class="container">
       <div class="shyllon">
-        <img src="20220706_084251.jpg" class="shyllon-image" />
+        <img src="20220706_084251.jpg" class="shyllon-image" type="image/jpeg" />
         <h3>Shyllon</h3>
         <p align="center">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ipsum
@@ -169,7 +168,7 @@
       </div>
 
       <div class="Festus">
-        <img src="20220706_084024.jpg" class="festus-image" />
+        <img src="20220706_084024.jpg" class="festus-image" type="image/jpeg" />
         <h3>Festus</h3>
         <p align="center">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ipsum
@@ -180,7 +179,7 @@
       </div>
 
       <div class="maryam">
-        <img src="20220721_104325.jpg" class="maryam-image" />
+        <img src="20220721_104325.jpg" class="maryam-image" type="image/jpeg" />
         <h3>Maryam</h3>
         <p align="center">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
@@ -205,6 +204,15 @@
         <input class="email-input" placeholder="Input your email..." type="email">
         <br />
         <button class="order-btn" id="btn" onclick="email()">ORDER NOW</button>
+        <script>
+          function email(){
+    var link = "mailto: shyllonolayinka608@gmail.com"
+    +"?subject=" + encodeURIComponent("Order to Crownade Casuals")
+    ;
+    window.location.href = link;
+    window.alert("Sending email");
+    } 
+        </script>
       </center>
       </div>
       <br />
