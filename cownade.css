@@ -77,9 +77,8 @@ body{
 .quote {
   justify-content: center;
   font-family: cursive;
-  margin-left: 300px;
-  margin-right: 300px;
   color: #fff;
+  margin-inline: auto;
 }
 
 

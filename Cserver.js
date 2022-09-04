@@ -3,6 +3,7 @@ const fs = require('fs');
 
 const crownade = fs.readFileSync('./Crownade.html', 'utf-8');
 const cownade = fs.readFileSync('./cownade.css', 'utf-8');
+const backend = fs.readFileSync('./cownade.js', 'utf-8');
 const image1 = fs.readFileSync('IMG-20220812-WA0139_1.jpg');
 const image2 = fs.readFileSync('photo-1560796952-f1c9b838544c.jfif');
 const image3 = fs.readFileSync('IMG-20220812-WA0168.jpg');
@@ -23,6 +24,10 @@ const server = http.createServer((req, res) =>{
   if (req.url === '/cownade.css'){
     res.statusCode = 200;
     res.end(cownade);
+  }
+  if (req.url === '/cownade.js'){
+    res.statusCode = 200;
+    res.end(backend);
   }
   if (req.url === '/IMG-20220812-WA0139_1.jpg'){
   res.end(image1);
