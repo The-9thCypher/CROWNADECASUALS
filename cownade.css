@@ -17,6 +17,13 @@
   transition-duration: 800ms;
 }
 
+@media screen and (min-width: 412px) and (max-width: 414px) {
+  .nav{
+    margin-right: 0px; 
+
+  }
+}
+
 .image {
   float: left;
   margin-top: 20px;
@@ -339,6 +346,13 @@ body{
   margin-left: 450px;
   margin-right: 450px;
   border-radius: 20px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 414px) {
+  .email-div{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .email-input{
