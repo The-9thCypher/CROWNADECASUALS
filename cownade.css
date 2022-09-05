@@ -20,7 +20,17 @@
 @media screen and (min-width: 412px) and (max-width: 414px) {
   .nav{
     margin-right: 0px; 
-
+  }
+  .name-header{
+    float: none;
+    font-size: small;
+    margin-top: 10px;
+  }
+  .image{
+    float: none;
+  }
+  .header{
+    display: flex;
   }
 }
 
