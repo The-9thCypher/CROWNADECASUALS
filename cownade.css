@@ -99,7 +99,42 @@ body{
 }
 
 
-.secondtwoimages {
+
+.gallery{
+  position: relative;
+  margin-left: 400px;
+  width: 300px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotate 35s linear infinite;
+}
+
+@keyframes rotate{
+  from{
+    transform: perspective(1200px)rotateY(0deg);
+  }
+
+  to{
+    transform: perspective(1200px)rotateY(360deg);
+  }
+}
+
+.gallery span{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--l) * 45deg)) translateZ(380px);
+}
+
+.gallery span img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .secondtwoimages {
   margin-left: 20px;
 }
 
@@ -114,7 +149,7 @@ body{
   width: 600px;
   border-radius: 20px;
   margin-left: 20px;
-}
+} */
 
 .why-choose {
   position: relative;
