@@ -37,7 +37,7 @@
   }
 }
 
-@media screen and (min-width: 412px) and (max-width: 414px) {
+@media screen and (min-width: 412px) and (max-width: 425px) {
   .nav{
     margin-right: 0px; 
   }
@@ -128,7 +128,7 @@ body{
   vertical-align: 10px;
 }
 
-@media screen and (width: 414px) {
+@media screen and (min-width: 414px) and (max-width: 425px) {
   .about-welcome{
     color: #000;
   }
@@ -212,6 +212,11 @@ body{
   margin-left: 20px;
 } */
 
+.text-after-image{
+  color: #fff;
+  font-family: cursive;
+}
+
 .why-choose {
   position: relative;
   color: #fff;
@@ -225,8 +230,12 @@ body{
 
 .container{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+}
+
+@media screen and (min-width: 280px) and (max-width: 768px) {
+  .container{
+    display: contents;
+  }
 }
 
 .assured-speed {
@@ -235,7 +244,7 @@ body{
   box-shadow: 10px 10px 20px -5px;
   color: #000;
   font-family: cursive;
-  margin-left: 30px;
+  margin: auto;
   width: 300px;
   position: relative;
   animation-name: divslide;
@@ -258,7 +267,7 @@ body{
   color: #000;
   font-family: cursive;
   width: 300px;
-  margin-left: 150px;
+  margin: auto;
   position: relative;
   animation-name: divslide;
   animation-duration: 3s;
@@ -280,7 +289,7 @@ body{
   color: #000;
   font-family: cursive;
   width: 300px;
-  margin-left: 140px;
+  margin: auto;
   position: relative;
   animation-name: divslide;
   animation-timing-function: linear;
@@ -335,13 +344,19 @@ body{
   animation-duration: 3s;
 }
 
+@media screen and (min-width: 412px) and (max-width: 425px) {
+  .testimonial{
+    color: #000;
+  }
+}
+
 .shyllon{
   background-color:lightblue;
   border-radius: 20px;
   box-shadow:  10px 10px 20px -5px;
   color: #000;
   font-family: cursive;
-  margin-left: 30px;
+  margin: auto;
   width: 300px;
   position: relative;
   animation-name: divslide;
@@ -383,7 +398,7 @@ body{
   color: #000;
   font-family: cursive;
   width: 300px;
-  margin-left: 150px;
+  margin: auto;
   position: relative;
   animation-timing-function: linear;
   animation-name: divslide;
@@ -413,7 +428,7 @@ body{
   color: #000;
   font-family: cursive;
   width: 300px;
-  margin-left: 140px;
+  margin: auto;
   animation-timing-function: linear;
   position: relative;
   animation-name: divslide;
@@ -454,7 +469,7 @@ body{
   border-radius: 20px;
 }
 
-@media screen and (min-width: 360px) and (max-width: 414px) {
+@media screen and (min-width: 360px) and (max-width: 425px) {
   .email-div{
     margin-left: 10px;
     margin-right: 10px;
