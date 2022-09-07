@@ -17,6 +17,26 @@
   transition-duration: 800ms;
 }
 
+@media screen and (width: 280px) {
+  .header{
+    display: flex;
+  }
+  .name-header{
+    font-size: 8px;
+    margin-top: 20px;
+  }
+  .welcome-note{
+    font-size: 5px;
+  }
+  .email-div{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .div-footer{
+    width: 280px;
+  }
+}
+
 @media screen and (min-width: 412px) and (max-width: 414px) {
   .nav{
     margin-right: 0px; 
@@ -45,6 +65,26 @@
   color: rgb(180, 93, 180);
   font-family: cursive;
 }
+
+@media screen and (width: 360px) {
+  .header{
+    display: flex;
+  }
+  .name-header{
+    font-size: 11px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 393px) {
+  .header{
+    display: flex;
+  }
+  .name-header{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
 /* END OF TOP PART OF THE WEB PAGE */
 
 /* START OF THE MAIN PART OF THE WEBPAGE */
@@ -62,25 +102,22 @@ body{
   position: relative;
   font-family: cursive;
   color: darksalmon;
-  transition: all 4s;
+  font-size: 70px;
+  -webkit-text-stroke: 3px #d6f4f4;
+  font-variation-settings: "wght", 100, "ital", 0;
+  /* transition: all 4s;
   -webkit-text-stroke: 2px #d6f4f4;
   font-variation-settings: "wght" 900, "ital" 1;
   font-size: 5rem;
   text-align: center;
   color: coral;
-  font-family: "Meta", sans-serif;
-  text-shadow: 10px 0px #07bccc, 
+  font-family: "Meta", sans-serif;*/
+  /* text-shadow: 10px 0px #07bccc, 
   15px 15px 0px #e601c0
   20px 20px 0px #e9019a
   25px 25px 0px #f40468
-  45px 45px 10px #482896;
+  45px 45px 10px #482896;  */
   cursor: pointer;
-}
-
-.welcome-note:hover {
-  -webkit-text-stroke: 3px #d6f4f4;
-  font-variation-settings: "wght", 100, "ital", 0;
-  text-shadow: none;
 }
 
 .about-welcome {
@@ -89,6 +126,12 @@ body{
   font-family: cursive;
   font-size: 30px;
   vertical-align: 10px;
+}
+
+@media screen and (width: 414px) {
+  .about-welcome{
+    color: #000;
+  }
 }
 
 .quote {
@@ -143,7 +186,7 @@ body{
 
 @media screen and (min-width: 768px) and (max-width: 820px) {
   .gallery{
-    margin-left: 200px;
+    margin-left: 250px;
   }
 }
 
@@ -415,6 +458,19 @@ body{
   .email-div{
     margin-left: 10px;
     margin-right: 10px;
+  }
+}
+
+@media screen and (width: 540px) {
+  .about-welcome{
+    color: #000;
+  }
+  .email-div{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .div-footer{
+    width: 300px;
   }
 }
 
