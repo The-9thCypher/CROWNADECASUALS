@@ -188,6 +188,10 @@ body{
   .gallery{
     margin-left: 250px;
   }
+  .email-div{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 @media screen and (width: 912px)  {
@@ -238,20 +242,7 @@ body{
   }
 }
 
-@media screen and (width: 768px) {
-  .email-div{
-    margin-left: 0px;
-    margin-right: 100px;
-
-  }
-  
-}
-
-.container{
-  display: flex;
-}
-
-@media screen and (min-width: 280px) and (max-width: 768px) {
+@media screen and (min-width: 280px) and (max-width: 820px) {
   .container{
     display: contents;
   }
