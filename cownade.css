@@ -194,6 +194,10 @@ body{
   .gallery{
     margin-left: 300px;
   }
+.container{
+  display: contents;
+}
+
 }
 /* .secondtwoimages {
   margin-left: 20px;
@@ -226,6 +230,21 @@ body{
   animation-name: welcomenote;
   animation-duration: 3s;
   animation-timing-function: linear;
+}
+
+@media screen and (width: 768px) {
+  .why-choose{
+    color: #000;
+  }
+}
+
+@media screen and (width: 768px) {
+  .email-div{
+    margin-left: 0px;
+    margin-right: 100px;
+
+  }
+  
 }
 
 .container{
