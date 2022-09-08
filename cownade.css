@@ -189,8 +189,8 @@ body{
     margin-left: 250px;
   }
   .email-div{
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -223,6 +223,10 @@ body{
 .text-after-image{
   color: #fff;
   font-family: cursive;
+}
+
+.container{
+  display: flex;
 }
 
 .why-choose {
