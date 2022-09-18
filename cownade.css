@@ -89,9 +89,6 @@
   .testimonial{
     color: #000;
   }
-  .text-after-image{
-    color: #000;
-  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 393px) {
@@ -297,7 +294,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: auto;
   width: 300px;
   position: relative;
@@ -319,7 +316,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 300px;
   margin: auto;
   position: relative;
@@ -341,7 +338,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 300px;
   margin: auto;
   position: relative;
@@ -409,7 +406,7 @@ body{
   border-radius: 20px;
   box-shadow:  10px 10px 20px -5px;
   color: #000;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: auto;
   width: 300px;
   position: relative;
@@ -450,7 +447,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 300px;
   margin: auto;
   position: relative;
@@ -480,7 +477,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 300px;
   margin: auto;
   animation-timing-function: linear;
