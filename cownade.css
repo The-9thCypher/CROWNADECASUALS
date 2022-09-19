@@ -68,7 +68,7 @@
 .name-header {
   float: left;
   color: rgb(180, 93, 180);
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
 }
 
 @media screen and (width: 360px) {
@@ -120,7 +120,7 @@ body{
 
 .welcome-note {
   position: relative;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   color: darksalmon;
   font-size: 70px;
   -webkit-text-stroke: 3px #d6f4f4;
@@ -143,7 +143,7 @@ body{
 .about-welcome {
   position: relative;
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   font-size: 30px;
   vertical-align: 10px;
 }
@@ -158,7 +158,7 @@ body{
 
 .quote {
   justify-content: center;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   color: #fff;
   margin-inline: auto;
 }
@@ -259,7 +259,7 @@ body{
 
 .text-after-image{
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
 }
 
 .container{
@@ -269,7 +269,7 @@ body{
 .why-choose {
   position: relative;
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   font-size: 30px;
   vertical-align: 10px;
   animation-name: welcomenote;
@@ -294,7 +294,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   margin: auto;
   width: 300px;
   position: relative;
@@ -316,7 +316,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   width: 300px;
   margin: auto;
   position: relative;
@@ -338,7 +338,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family: sans-serif;
+  font-family:"Comic Sans Ms";
   width: 300px;
   margin: auto;
   position: relative;
@@ -387,7 +387,7 @@ body{
 .testimonial {
   position: relative;
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   font-size: 30px;
   vertical-align: 10px;
   animation-name: welcomenote;
@@ -406,7 +406,7 @@ body{
   border-radius: 20px;
   box-shadow:  10px 10px 20px -5px;
   color: #000;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   margin: auto;
   width: 300px;
   position: relative;
@@ -447,7 +447,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   width: 300px;
   margin: auto;
   position: relative;
@@ -477,7 +477,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px 10px 20px -5px;
   color: #000;
-  font-family:  sans-serif;
+  font-family:  "Comic Sans Ms";
   width: 300px;
   margin: auto;
   animation-timing-function: linear;
@@ -549,7 +549,7 @@ body{
   height: 40px;
   color: #000;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   margin-bottom: 20px;
   animation-name: email;
   animation-duration: 3s;
@@ -577,7 +577,7 @@ body{
   color: #000;
   font-size: 20px;
   margin-bottom: 20px;
-  font-family: sans-serif;
+  font-family: "Comic Sans Ms";
   height: 50px;
   width: 200px;
   border-color: #fff;
