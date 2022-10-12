@@ -13,34 +13,44 @@
   <link rel="dns-prefetch" href="//fonts.googleapis.com" />
   <link rel="dns-prefetch" href="//s.w.org" />
   <link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
   <title>CROWNADE CASUALS &#8211; Divinely Crowned</title>
 </head>
 <!-- start of header section from the name to the logo to the nav bar -->
 <header class="header">
-  <div class="image">
-    <img src="IMG-20220812-WA0139_1.jpg" style="height: 50px; width: 60px" type="image/jpeg" alt="image" />
+  <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand">Crownade Casuals</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Our designs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="" >Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#whychoose" >Why choose us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials" >Testimonials</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
   </div>
-  <div class="name-header">
-    <h1>&nbsp;CROWNADE CASUALS.</h1>
-  </div>
-</header>
-<div class="nav">
-  <nav>
-    <span class="fa-solid fa-image"
-      style="font-size: 20px; color:#fff; font-family: Font Awesome 5 Free; font-weight: 900;"></span>
-    <a href="#">OUR DESIGNS &nbsp;</a>
-    <span class="fas fa-shopping-cart"
-      style="font-size: 20px; color:#fff; font-family: Font Awesome 5 Free; font-weight: 900;"></span>
-    <a href="#" onclick="checkCookie()">MARKET PLACE &nbsp;</a>
-    <span class="fa-brands fa-twitter"
-      style="font-size: 20px; color:#fff; font-family: Font Awesome 5 Free; font-weight: 900;"></span>
-    <a href="#">CYPHER AFILIATES &nbsp;</a>
-    <span class="fa-brands fa-whatsapp"
-      style="font-size: 20px; color:#fff; font-family: Font Awesome 5 Free; font-weight: 900;"></span>
-    <a href="https://api.whatsapp.com/send?phone=2348170544452&text=Crownadecasuals" target="_blank">CONTACT US
-      &nbsp;</a>
   </nav>
-</div>
+</header>
 <hr style="width: 75%" color="#fff" />
 <br />
 
@@ -78,7 +88,7 @@
   <br />
 
   <span>
-    <div class="gallery">
+    <div class="gallery" id="gallery">
       <span style="--l:1">
         <img src="IMG-20220812-WA0168.jpg" alt="" />
       </span>
@@ -96,23 +106,6 @@
       </span>
     </div>
   </span>
-  <!-- <div class="container">
-      <div class="firsttwoimages">
-        <img src="IMG-20220812-WA0168.jpg" class="image-one" type="image/jpeg" alt="image"/>
-        <br /><br />
-        <img src="IMG-20220812-WA0172.jpg" class="image-one" type="image/jpeg" alt="image" />
-      </div>
-
-      <div class="lastimagecenter">
-        <img src="IMG-20220812-WA0131.jpg" class="centerimage" type="image/jpeg" alt="image" />
-      </div>
-
-      <div class="secondtwoimages">
-        <img src="IMG-20220812-WA0173.jpg" class="image-one" type="image/jpeg" alt="image" />
-        <br /><br />
-        <img src="IMG-20220812-WA0174.jpg" class="image-one" type="image/jpeg" alt="image" />
-      </div>
-    </div> -->
   <br /><br />
   <p align="center" class="text-after-image">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, magni? Cum
@@ -126,7 +119,7 @@
     <center>
       <span class="fa-solid fa-handshake"
         style="color: #fff; font-family: Font Awesome 5 Free; font-weight: 900; font-size: 48px; "></span>
-      <h1 class="why-choose">Why Choose Us</h1>
+      <h1 class="why-choose" id="whychoose" >Why Choose Us</h1>
       <hr style="
             width: 10%;
             height: 3px;
@@ -174,7 +167,7 @@
   <center>
     <span class="fa-solid fa-users"
       style="color: #fff; font-family: Font Awesome 5 Free; font-weight: 900; font-size: 48px; "></span>
-    <h1 class="testimonial">Testimonials</h1>
+    <h1 class="testimonial" id="testimonials" >Testimonials</h1>
     <hr style="
           width: 10%;
           height: 3px;
@@ -220,6 +213,8 @@
   <br />
   <hr style="width: 50%" color="#fff" />
   <br />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script> 
 </body>
 
 <!-- start of the footer scetion -->

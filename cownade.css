@@ -1,29 +1,14 @@
 /* START OF TOP PART OF THE WEBPAGE  */
-.nav {
-  float: right;
-  margin-top: 38px;
-  margin-right: 50px;
-  font-family: "Comic Sans Ms";
-  font-size: large;
+html{
+  scroll-behavior: smooth;
 }
 
-.nav a {
-  text-decoration: none;
-  color: rgb(180, 93, 180);
-}
-
-.nav a:hover {
-  color:  #fff;
-  transition-duration: 800ms;
+.nav-item{
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 @media screen and (width: 280px) {
-  .header{
-    display: flex;
-  }
-  .nav{
-    margin-left: 10px;
-  }
   .name-header{
     font-size: 8px;
     margin-top: 20px;
