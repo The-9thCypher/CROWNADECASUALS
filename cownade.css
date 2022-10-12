@@ -9,10 +9,6 @@ html{
 }
 
 @media screen and (width: 280px) {
-  .name-header{
-    font-size: 8px;
-    margin-top: 20px;
-  }
   .welcome-note{
     font-size: 5px;
   }
@@ -22,12 +18,6 @@ html{
   }
   .div-footer{
     width: 280px;
-  }
-}
-
-@media screen and (min-width: 412px) and (max-width: 425px) {
-  .header{
-    display: flex;
   }
 }
 
