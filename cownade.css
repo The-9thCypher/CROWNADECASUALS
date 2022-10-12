@@ -443,22 +443,6 @@ body{
   }
 }
 
-.email-input{
-  border: none;
-  border-bottom: 2px solid #000;
-  background: transparent;
-  text-align: center;
-  outline: none;
-  height: 40px;
-  color: #000;
-  font-size: 20px;
-  font-family: "Comic Sans Ms";
-  margin-bottom: 20px;
-  animation-name: email;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
 
 @keyframes email{
   from{
