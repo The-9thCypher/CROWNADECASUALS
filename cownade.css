@@ -26,29 +26,9 @@ html{
 }
 
 @media screen and (min-width: 412px) and (max-width: 425px) {
-  .name-header{
-    float: none;
-    font-size: small;
-    margin-top: 10px;
-  }
-  .image{
-    float: none;
-  }
   .header{
     display: flex;
   }
-}
-
-.image {
-  float: left;
-  margin-top: 20px;
-  margin-left: 5px;
-}
-
-.name-header {
-  float: left;
-  color: rgb(180, 93, 180);
-  font-family: "Comic Sans Ms";
 }
 
 @media screen and (width: 360px) {
@@ -60,16 +40,6 @@ html{
   }
   .testimonial{
     color: #000;
-  }
-}
-
-@media screen and (min-width: 375px) and (max-width: 393px) {
-  .header{
-    display: flex;
-  }
-  .name-header{
-    font-size: 12px;
-    margin-top: 10px;
   }
 }
 
@@ -208,22 +178,6 @@ body{
   margin-right: 0px;
 }
 }
-/* .secondtwoimages {
-  margin-left: 20px;
-}
-
-.image-one {
-  height: 300px;
-  width: 300px;
-  border-radius: 20px;
-}
-
-.centerimage {
-  height: 620px;
-  width: 600px;
-  border-radius: 20px;
-  margin-left: 20px;
-} */
 
 .text-after-image{
   color: #fff;
